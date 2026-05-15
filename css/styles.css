@@ -78,6 +78,7 @@ p {
 }
 
 /* Links */
+
 a {
   text-decoration: none;
 }
@@ -139,7 +140,8 @@ a {
   }
 }
 
-/* lists */
+/* Lists */
+
 .list {
   list-style: none;
   padding-left: 0;
@@ -168,6 +170,7 @@ a {
 }
 
 /* Icons */
+
 .icon {
   width: 40px;
   height: 40px;
@@ -201,6 +204,7 @@ a {
 }
 
 /* Buttons */
+
 .btn {
   border-radius: 40px;
   border: 0;
@@ -209,7 +213,7 @@ a {
   font-weight: 600;
   margin: 1rem 0;
   outline: 0;
-  padding: 2rem 3rem;
+  padding: 2rem 4vw;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -277,6 +281,7 @@ a {
 }
 
 /* Inputs */
+
 .input {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
@@ -300,6 +305,7 @@ a {
   border: 0;
   flex-grow: 1;
   padding: 1.5rem 2rem;
+  width: 0;
 }
 
 .input-group .btn {
@@ -313,6 +319,7 @@ a {
 }
 
 /* Cards */
+
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
@@ -343,6 +350,7 @@ a {
 }
 
 /* Plans */
+
 .plan {
   transition: transform 0.2s ease-out;
 }
@@ -416,6 +424,7 @@ a {
 }
 
 /* Media */
+
 .media {
   display: flex;
   margin-bottom: 4rem;
@@ -434,6 +443,7 @@ a {
 }
 
 /* Quotes */
+
 .quote {
   font-size: 3rem;
   font-style: italic;
@@ -483,6 +493,7 @@ a {
 }
 
 /* Grids */
+
 .grid {
   display: grid;
 }
@@ -500,6 +511,7 @@ a {
 }
 
 /* Testimonials */
+
 .testimonial {
   padding: 3rem;
 }
@@ -530,6 +542,7 @@ a {
 }
 
 /* Callouts */
+
 .callout {
   padding: 4rem;
   border-radius: 5px;
@@ -571,6 +584,7 @@ a {
 }
 
 /* Collapsibles */
+
 .collapsible__header {
   display: flex;
   justify-content: space-between;
@@ -580,8 +594,6 @@ a {
   margin-top: 0;
   font-size: 3rem;
 }
-
-/* FIXME: Fix the Chevron Icon */
 
 .collapsible__chevron {
   transform: rotate(-90deg);
@@ -605,6 +617,7 @@ a {
 }
 
 /* Blocks */
+
 .block {
   --padding-vertical: 6rem;
 
@@ -642,12 +655,14 @@ a {
 }
 
 /* Container */
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
 /* Navigation Bar */
+
 .nav {
   background: #000;
   display: flex;
@@ -711,6 +726,7 @@ a {
 }
 
 /* Hero */
+
 .hero__tagline {
   font-size: 2rem;
   color: #b9c3cf;
@@ -734,6 +750,7 @@ a {
 }
 
 /* Domain Block */
+
 .block-domain .input-group {
   box-shadow: 0 0 30px 20px #e6ebee;
   border: 0;
@@ -742,8 +759,9 @@ a {
 }
 
 .block-domain__prices {
+  color: var(--color-headings);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 6rem);
   font-size: 2rem;
   font-weight: 600;
@@ -759,6 +777,7 @@ a {
 }
 
 /* Plans Block */
+
 .block-plans .grid {
   gap: 8rem 4rem;
 }
@@ -769,6 +788,7 @@ a {
 }
 
 /* Features */
+
 .feature {
   gap: 4rem 2rem;
   margin: 12rem 0;
@@ -793,6 +813,7 @@ a {
 }
 
 /* Showcase Block */
+
 .block-showcase__image > img {
   width: 100%;
 }
@@ -813,6 +834,7 @@ a {
 }
 
 /* Footer */
+
 .footer {
   background: #232323;
 }
