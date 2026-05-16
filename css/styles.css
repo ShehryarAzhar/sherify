@@ -569,6 +569,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .callout {
+    transform: translateY(25%);
+  }
+
   .callout .grid--1x2 {
     grid-template-columns: 1fr auto;
   }
@@ -880,6 +884,10 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 10rem;
+  }
+
   .footer__sections {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
